@@ -1,0 +1,186 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "c4aeaa6c-ab28-4d0a-a148-9969f28c19da",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=15\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "1f5295a8-0163-42f3-ba37-b1eb1c9fd2f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=25\n",
+    "print(int(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "cb15e6b6-0375-480d-a87f-2f106e1737ba",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n",
+      "15\n",
+      "15\n",
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=15\n",
+    "b=0b1111\n",
+    "c=0o17\n",
+    "d=0xf\n",
+    "print(a)\n",
+    "print(b)\n",
+    "print(c)\n",
+    "print(d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "9da81e13-643c-4fd3-bb69-e778fa92d782",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "invalid literal for int() with base 10: 'ten'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[19], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m esal\u001b[38;5;241m=\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mten\u001b[39m\u001b[38;5;124m\"\u001b[39m\n\u001b[1;32m----> 2\u001b[0m esal\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;43mint\u001b[39;49m\u001b[43m(\u001b[49m\u001b[43mesal\u001b[49m\u001b[43m)\u001b[49m\n",
+      "\u001b[1;31mValueError\u001b[0m: invalid literal for int() with base 10: 'ten'"
+     ]
+    }
+   ],
+   "source": [
+    "esal=\"ten\"\n",
+    "esal=int(esal)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "b6605c1e-6c20-4393-b0ff-88ba7f3d87fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "esal=45000\n",
+    "print(type(esal))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "6a9a223a-51e3-4c55-a8e6-a60850b26812",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "esal=\"45000\"\n",
+    "print(type(esal))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "47d0a7ba-cd0d-4b24-9187-87ca51a13ec5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=input(\"Enter First Number\")\n",
+    "b=input(\"Enter Second Number\")\n",
+    "print(a+b)\n",
+    "print(type(a))\n",
+    "print(type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9ff50856-3bf9-4582-9840-d2ce269d6920",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=int(input(\"Enter First Number\"))\n",
+    "b=input(\"Enter Second Number\")\n",
+    "print(a+b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "38b69413-7e4f-445f-a409-fd664bb19d20",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
